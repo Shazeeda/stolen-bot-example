@@ -1,5 +1,6 @@
 I built this bot to simulate how State Farm bots operate across ECS, Splunk, and Power Automate. It handles a stolen vehicle claim under SIU review, generates file notes, flags missing evidence, and outputs a structured log and task list—just like ServiceNow would. This improves claim accuracy, reduces human error, and ensures investigators don’t miss key tasks in high-risk cases.
 
+This automation bot helps State Farm reduce claim handling time, improves documentation accuracy, and ensures no key investigative steps are missed. That means fewer unnecessary payouts, better fraud detection, and more consistent audit trails — all of which translate to cost savings and better claim outcomes.
 
 
 This bot simulates a Power Automate-style intelligent assistant for the Special Investigation Unit (SIU) at an insurance company—designed to streamline the handling of stolen vehicle claims under investigation.
