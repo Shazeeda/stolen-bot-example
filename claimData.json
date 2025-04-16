@@ -1,0 +1,13 @@
+{
+  "claimId": "CLM8910",
+  "dateAssignedToSIU": "2025-04-10",
+  "policeReport": true,
+  "vehicleRecovered": false,
+  "titleProvided": true,
+  "keyProvided": false,
+  "affidavitReceived": false,
+  "priorClaims": true,
+  "customerInterview": false,
+  "vehicleLocationLastSeen": "At home",
+  "daysSinceTheft": 5
+}

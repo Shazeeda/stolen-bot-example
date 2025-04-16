@@ -1,0 +1,35 @@
+{
+  "claimId": "CLM8910",
+  "status": "Under Investigation",
+  "checklist": [
+    {
+      "item": "Police report received",
+      "status": "Complete"
+    },
+    {
+      "item": "Title provided",
+      "status": "Complete"
+    },
+    {
+      "item": "Key/fob provided",
+      "status": "Pending"
+    },
+    {
+      "item": "Theft affidavit received",
+      "status": "Pending"
+    },
+    {
+      "item": "Customer interview complete",
+      "status": "Pending"
+    }
+  ],
+  "recommendedTasks": [
+    "Confirm key/fob status with customer",
+    "Request signed theft affidavit",
+    "Schedule customer interview",
+    "Review prior claims for potential pattern",
+    "Confirm garage entry security and forced entry evidence",
+    "Add vehicle to NICB unrecovered list"
+  ],
+  "ecsFileNote": "Checklist generated for claim CLM8910: Keys/fob not yet collected. Affidavit still outstanding. Interview not completed. Prior claims found on file. Vehicle not recovered after 5 days."
+}
