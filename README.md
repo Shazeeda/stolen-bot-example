@@ -23,7 +23,20 @@ It simulates ServiceNow task creation:
 Suggests next-step tasks based on missing evidence or red flags
 Could be connected to a real task engine or used to simulate it in interviews
 
-                    
+claimData.json
+“This is the mock claim input. It represents what data might come into a workflow — things like whether the police report was filed, if the title was submitted, whether keys were provided, etc.”
+
+src/claimProcessor.js
+“This is the core logic file. It processes the claim data and determines:
+•	What items are missing (like a checklist)
+•	What follow-up tasks should be suggested
+•	And what note would be entered in ECS to document the claim status”
+
+src/flowEngine.js
+“This acts like a Power Automate-style flow engine. It handles the flow of data from the claim input, sends it through the processor, and handles the result.”
+
+src/logger.js
+“This simulates a Splunk-style logging system. It writes out the full bot result — claim ID, checklist, tasks, and file note — to a log file called checklist-log.json, which can be used for tracking or auditing purposes.”
                 
 
                     <!-- stimulated equalivent in this bot  -->
