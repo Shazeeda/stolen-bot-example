@@ -1,27 +1,25 @@
-I built this bot to simulate how State Farm bots operate across ECS, Splunk, and Power Automate. It handles a stolen vehicle claim under SIU review, generates file notes, flags missing evidence, and outputs a structured log and task list—just like ServiceNow would. This improves claim accuracy, reduces human error, and ensures investigators don’t miss key tasks in high-risk cases.
+SIU Stolen Vehicle Automation Bot — Overview
+I built this bot to simulate how automation tools at State Farm work across ECS, Splunk, and Power Automate. 
+It’s designed to support the Special Investigation Unit (SIU) by streamlining the handling of stolen vehicle claims.
 
-This automation bot helps State Farm reduce claim handling time, improves documentation accuracy, and ensures no key investigative steps are missed. That means fewer unnecessary payouts, better fraud detection, and more consistent audit trails — all of which translate to cost savings and better claim outcomes.
+What the Bot Does
+When a stolen vehicle claim is assigned to SIU, the bot:
 
+Processes claim data (from claimData.json)
+Generates ECS-style file notes
+Flags missing evidence or red flags
+Builds a tailored checklist
+Outputs task recommendations like a ServiceNow queue
+Logs everything in a structured JSON file (checklist-log.json) — similar to Splunk tracking
 
-This bot simulates a Power Automate-style intelligent assistant for the Special Investigation Unit (SIU) at an insurance company—designed to streamline the handling of stolen vehicle claims under investigation.
+Why It Matters
+Reduces claim handling time
+Improves documentation accuracy
+Prevents missed investigative steps
+Enhances fraud detection
+Creates consistent audit trail
+All of this translates to fewer unnecessary payouts, more efficient claims, and cost savings for State Farm.
 
-It processes claim data, generates ECS-style notes, maintains checklist audit logs (like Splunk), and simulates a ServiceNow-style task tracking system for adjusters and SIU reps.
-
-What This Bot Does
-When a claim is assigned to SIU for a stolen vehicle:
-
-It acts like a Power Automate flow:
-Processes structured claim data (from claimData.json)
-Evaluates red flags and required documentation
-Generates tailored checklists and ECS-style updates
-
-It mimics Splunk logging:
-Outputs a detailed, structured JSON log (checklist-log.json)
-Can be used for tracking bot runs or audit reporting
-
-It simulates ServiceNow task creation:
-Suggests next-step tasks based on missing evidence or red flags
-Could be connected to a real task engine or used to simulate it in interviews
 
 claimData.json
 “This is the mock claim input. It represents what data might come into a workflow — things like whether the police report was filed, if the title was submitted, whether keys were provided, etc.”
